@@ -65,5 +65,6 @@ dependencyResolutionManagement {
         password = gprToken.get()
       }
     }
+    mavenLocal()
   }
 }

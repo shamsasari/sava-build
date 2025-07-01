@@ -2,7 +2,7 @@ plugins {
   id("java")
 }
 
-val jlv = JavaLanguageVersion.of(javaVersion("24"))
+val jlv = JavaLanguageVersion.of(javaVersion("17"))
 
 java {
   toolchain.languageVersion = jlv
